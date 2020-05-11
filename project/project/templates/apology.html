@@ -1,0 +1,5 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+    <img alt="{{ top }}" class="border" src="http://memegen.link/custom/{{ top | urlencode }}/{{ bottom | urlencode }}.jpg?alt=https://i.imgur.com/74HtSJK.jpg" title="{{ top }}" style="height:600px">
+{% endblock %}

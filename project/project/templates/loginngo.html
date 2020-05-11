@@ -1,0 +1,21 @@
+{% extends 'layout.html' %}
+
+{% block body %}
+
+    <div class="login">
+
+      <form action="/loginngo" method="POST" class="ngo">
+        <p class="title">NGO</p>
+        <div class="form-group">
+          <label for="ngosname">NGO's Name</label>
+          <input type="text" name="ngosname" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+
+        </div>
+        <div class="form-group">
+          <label for="ngospassword">Password</label>
+          <input type="password" name="ngospassword" class="form-control" id="ngospassword">
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </form>
+    </div>
+{% endblock %}

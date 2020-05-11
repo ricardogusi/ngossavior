@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Raleway:wght@400;700&display=swap');
+
+/*  font-family: 'Montserrat', sans-serif;
+    font-family: 'Raleway', sans-serif; */
+nav {
+    height: 50px;
+}
+nav img {
+    margin-top: 10px;
+}
+.navbar-nav a {
+    font-family: "Montserrat";
+
+}
+
+.banner img {
+    position: relative;
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.banner p {
+    position: absolute;
+    margin-top: -4em;
+    margin-left: 240px;
+    color: aliceblue;
+    font-family: "Montserrat";
+    font-size: 4rem;
+
+}
+
+.line {
+    position: absolute;
+    width: 450px;
+    height: 0px;
+    left: 430px;
+    top: 140px;
+    border: 0.8px solid #00B41A;
+}
+
+
+.line1 {
+    position: absolute;
+    width: 450px;
+    height: 0px;
+    left: 430px;
+    top: 260px;
+    border: 0.8px solid #00B41A;
+}
+
+.conteudo {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+}
+
+.conteudo img {
+    margin-left: 60px;
+    height: 250px;
+    padding-bottom: 0;
+}
+
+.conteudo p {
+    grid-column: 2/4;
+    margin-top: 60px;
+    margin-right: 70px;
+    font-family: "Raleway";
+    font-size: 1.2rem;
+}
+
+/* Página LOGIN */
+
+.loginpage {
+    background-color: #f8f9fa;
+}
+
+.login {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 200px;
+    justify-items: center;
+    justify-content: space-around;
+
+}
+
+.login p {
+    font-family: "Montserrat";
+    font-size: 48px;
+}
+
+
+/* Página userhome */
+
+.hello {
+    position: flex;
+    margin-top: 100px;
+    margin-left: 30px;
+    font-family: "Montserrat";
+    font-size: 1.6rem;
+}
+
+.greeting {
+    position: flex;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+.cases {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 30px;
+}
+
+.card {
+    margin: auto;
+
+}
+
+#whatsapp {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+/* Página NGO's Home */
+
+.newcase {
+    margin-right: 50px;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-body a {
+    display: block;
+    margin-top: 10px;
+    text-align: right;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.card-body a:hover{
+    color: blue;
+}
+
+
+/* Página new case */
+
+.newcasetitle {
+    margin-top: 100px;
+    text-align: center;
+    font-family: "Montserrat";
+    font-size: 2rem;
+    text-decoration: underline #00B41A ;
+}
+
+.newcase {
+    width: 500px;
+    margin: 60px auto;
+}
+
+.ntext label {
+    margin-right: 420px;
+    font-family: "Montserrat";
+}
+
+
+.hidden {
+    visibility: hidden;
+}

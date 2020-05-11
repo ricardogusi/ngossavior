@@ -1,0 +1,2 @@
+This project is called "Ngo's Savior". It's an website where NGO's can register themselfs e put their cases that needs help so that the "Saviors" can help it.
+Once the savior register on the website he(she) can see the cases that needs help and choose one and contact the NGO.
