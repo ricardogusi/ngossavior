@@ -4,6 +4,7 @@
 
 Projeto final do curso CS50, onde o desafio era criar uma Webpage com funcionalidade total.
 
+
 O objetivo do site é Ongs se cadastrarem e postarem os casos que precisam de ajuda. Pessoas também se cadastram e entram em contato com a ONG para ajudar.
 
 
